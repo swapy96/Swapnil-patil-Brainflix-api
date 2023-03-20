@@ -67,7 +67,7 @@ router.post("/", (req, res) => {
       duration: "4:30",
       video: "https://project-2-api.herokuapp.com/stream",
       timestamp: Date.now(),
-      Comments: [
+      comments: [
         {
           id: "2d818087-c1f4-4ec2-bcdc-b545fd6ec258",
           name: "Martin Evergreen",
